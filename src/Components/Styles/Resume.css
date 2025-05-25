@@ -1,0 +1,187 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.9rem; /* Slightly smaller for print */
+  color: #1f2937;
+  line-height: 1.3;
+}
+
+.resume-container {
+  width: 8.27in;
+  min-height: 11.69in;
+  margin: 0 auto;
+  padding: 1.2rem 1.5rem;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background-color: #fff;
+   box-shadow: 
+    0 0 10px rgba(100, 100, 100, 0.3), 
+    0 0 20px rgba(100, 100, 100, 0.2), 
+    0 0 40px rgba(100, 100, 100, 0.1);
+  
+}
+
+
+.personal-detail {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  line-height: 0.7;
+}
+
+.resume-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+  color: #111827;
+}
+
+.resume-subtitle {
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 0.2rem;
+}
+
+.resume-contact {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 0.2rem;
+}
+
+.resume-links {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0.2rem;
+}
+
+.section {
+  margin-bottom: 1rem;
+  break-inside: avoid;
+}
+
+.section-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.4rem;
+  color: #111827;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+.education-institution,
+.experience-role,
+.project-title {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.9;
+}
+
+.education-degree,
+.experience-company,
+.project-tech {
+  margin-top: 0.1rem;
+  font-size: 0.85rem;
+}
+
+.project-tech {
+  font-style: italic;
+  font-weight: 500;
+  color: #6b7280;
+  line-height: 0.9;
+}
+
+
+.list {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding-left: 0.5rem;
+  line-height: 0.9;
+}
+
+.list li {
+  margin-bottom: 0.2rem;
+}
+
+
+.skills p {
+  margin-bottom: 0.25rem;
+  line-height: 0.7;
+}
+
+.career-objective {
+  line-height: 1.1;
+}
+
+
+.certification-link {
+  line-height: 0.9;
+}
+
+
+.honors-awards,
+.honors-awards li {
+  line-height: 0.9;
+}
+
+
+.float-right {
+  float: right;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.resume-links a,
+.project-link,
+.certification-link {
+  color: black;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.resume-links a:hover,
+.project-link:hover,
+.certification-link:hover {
+  text-decoration: underline;
+}
+
+
+@page {
+  size: A4;
+  margin: 1in;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-container {
+    border: none;
+    padding: 1in;
+    box-shadow: none;
+  }
+
+  .section {
+    break-inside: avoid;
+  }
+}
+
+.download-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 1rem auto;
+  display: block;
+}
