@@ -1,148 +1,69 @@
-
+/* Base body styles  New & final */ 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 0.9rem; /* Slightly smaller for print */
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 0.87rem; 
   color: #1f2937;
-  line-height: 1.3;
+  line-height: 1.15;
+  background-color: #fff;
 }
 
 .resume-container {
-  width: 8.27in;
-  min-height: 11.69in;
-  margin: 0 auto;
-  padding: 1.2rem 1.5rem;
+  width: 8.27in; /* A4 width */
+  height: 11.69in; /* A4 height */
+  margin: 0 auto 1rem auto; /* added 1rem bottom margin */
+  padding: 0.3in 0.75in; /* 0.5 to 1 inch margins */
   box-sizing: border-box;
   border: 1px solid #000;
-  background-color: #fff;
-   box-shadow: 
+  box-shadow: 
     0 0 10px rgba(100, 100, 100, 0.3), 
     0 0 20px rgba(100, 100, 100, 0.2), 
     0 0 40px rgba(100, 100, 100, 0.1);
-  
+  overflow: hidden;
+  background-color: #fff;
 }
 
-
+/* Personal detail section */
 .personal-detail {
   text-align: center;
   margin-bottom: 0.8rem;
-  line-height: 0.7;
+  line-height: 0.2; /* reduced from 1.1 */
 }
 
+/* Name style */
 .resume-title {
-  font-size: 1.8rem;
+  font-size: 1.33rem; /* 18px ~ 13.5pt */
   font-weight: 700;
-  margin-bottom: 0.15rem;
-  color: #111827;
-}
-
-.resume-subtitle {
-  font-size: 1rem;
-  color: #374151;
   margin-bottom: 0.2rem;
+  color: #111827;
+  line-height: 0.2; /* added for tighter spacing */
 }
 
+/* Subtitle, like job title */
+.resume-subtitle {
+  font-size: 1rem; /* 16px = 12pt */
+  color: #374151;
+  margin-bottom: 0.3rem;
+  line-height: 0.3; /* reduced */
+}
+
+/* Contact info */
 .resume-contact {
-  font-size: 0.9rem;
+  font-size: 0.83rem; /* ~13.3px = 10pt */
   color: #4b5563;
   margin-bottom: 0.2rem;
+  line-height: 0.3; /* reduced */
 }
 
-.resume-links {
-  text-decoration: none;
-  color: black;
-  margin-bottom: 0.2rem;
-}
-
-.section {
-  margin-bottom: 1rem;
-  break-inside: avoid;
-}
-
-.section-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  border-bottom: 1px solid #d1d5db;
-  padding-bottom: 0.1rem;
-  margin-bottom: 0.4rem;
-  color: #111827;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  line-height: 1.2;
-}
-
-.education-institution,
-.experience-role,
-.project-title {
-  font-weight: 600;
-  display: flex;
-  justify-content: space-between;
-  line-height: 0.9;
-}
-
-.education-degree,
-.experience-company,
-.project-tech {
-  margin-top: 0.1rem;
-  font-size: 0.85rem;
-}
-
-.project-tech {
-  font-style: italic;
-  font-weight: 500;
-  color: #6b7280;
-  line-height: 0.9;
-}
-
-
-.list {
-  list-style-type: disc;
-  margin-left: 1.25rem;
-  padding-left: 0.5rem;
-  line-height: 0.9;
-}
-
-.list li {
-  margin-bottom: 0.2rem;
-}
-
-
-.skills p {
-  margin-bottom: 0.25rem;
-  line-height: 0.7;
-}
-
-.career-objective {
-  line-height: 1.1;
-}
-
-
-.certification-link {
-  line-height: 0.9;
-}
-
-
-.honors-awards,
-.honors-awards li {
-  line-height: 0.9;
-}
-
-
-.float-right {
-  float: right;
-}
-
-.italic {
-  font-style: italic;
-}
-
+/* Links */
 .resume-links a,
 .project-link,
 .certification-link {
   color: black;
   text-decoration: none;
   margin-right: 0.5rem;
+  font-size: 0.83rem;
 }
 
 .resume-links a:hover,
@@ -151,29 +72,106 @@ body {
   text-decoration: underline;
 }
 
-
-@page {
-  size: A4;
-  margin: 1in;
+/* Section styling */
+.section {
+  margin-bottom: 1rem; /* paragraph spacing */
+  break-inside: avoid;
 }
 
-@media print {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .resume-container {
-    border: none;
-    padding: 1in;
-    box-shadow: none;
-  }
-
-  .section {
-    break-inside: avoid;
-  }
+/* Section titles */
+.section-title {
+  font-size: 1rem; /* 16px = 12pt */
+  font-weight: 700;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
 }
 
+/* Education, experience, projects titles */
+.education-institution,
+.experience-role,
+.project-title {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.1;
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+/* Degrees, companies, tech used */
+.education-degree,
+.experience-company,
+.project-tech {
+  font-size: 0.83rem; /* ~13.3px = 10pt */
+  margin-top: 0.15rem;
+  color: #374151;
+}
+
+.project-tech {
+  font-style: italic;
+  font-weight: 500;
+  color: #6b7280;
+  line-height: 1.1;
+}
+
+/* Lists */
+.list {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding-left: 0.5rem;
+  line-height: 1.15;
+  font-size: 0.83rem;
+  margin-bottom: 0.5rem;
+}
+
+.list li {
+  margin-bottom: 0.25rem;
+}
+
+/* Skills */
+.skills p {
+  margin-bottom: 0.3rem;
+  line-height: 1.15;
+  font-size: 0.83rem;
+}
+
+/* Career objective */
+.career-objective {
+  line-height: 1.15;
+  font-size: 0.83rem;
+  margin-bottom: 1rem;
+}
+
+/* Certifications */
+.certification-link {
+  line-height: 1.1;
+  font-size: 0.83rem;
+}
+
+/* Honors & awards */
+.honors-awards,
+.honors-awards li {
+  line-height: 1.1;
+  font-size: 0.83rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Float right utility */
+.float-right {
+  float: right;
+}
+
+/* Italic text utility */
+.italic {
+  font-style: italic;
+}
+
+/* Download button */
 .download-btn {
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -184,4 +182,67 @@ body {
   border-radius: 4px;
   margin: 1rem auto;
   display: block;
+  width: max-content;
+}
+
+/* Print settings */
+@page {
+  size: A4;
+  margin: 0.5in; /* consistent with container */
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-container {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Responsive mobile font adjustments */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.75rem; /* smaller base font */
+  }
+  
+  .resume-title {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 0.9rem;
+  }
+
+  .education-institution,
+  .experience-role,
+  .project-title {
+    font-size: 0.8rem;
+  }
+
+  .education-degree,
+  .experience-company,
+  .project-tech,
+  .list li,
+  .skills p,
+  .career-objective,
+  .certification-link {
+    font-size: 0.75rem;
+  }
+
+  .download-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
 }

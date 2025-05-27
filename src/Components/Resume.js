@@ -1,10 +1,38 @@
-import React from "react";
+// new & final
+import React, { useRef } from "react";
+import html2pdf from "html2pdf.js";
 import "./Styles/Resume.css";
 
 const Resume = () => {
+
+  const resumeRef = useRef();
+
+  const handleDownload = () => {
+    const element = resumeRef.current;
+
+    const opt = {
+      margin: 0,
+      filename: "Resume_Khushi_Chhari.pdf",
+      image: { type: "jpeg", quality: 0.98 },
+      html2canvas: {
+        scale: 2,
+        useCORS: true
+      },
+      jsPDF: {
+        unit: "in",
+        format: "a4",
+        orientation: "portrait"
+      },
+    };
+
+    html2pdf().set(opt).from(element).save();
+  };
+
+
+
   return (
     <>
-      <div className="resume-container">
+      <div className="resume-container" ref={resumeRef}>
         <div className="personal-detail">
           <h1 className="resume-title">Khushi Chhari</h1>
           <p className="resume-subtitle">Full Stack Web Developer</p>
@@ -131,7 +159,7 @@ const Resume = () => {
             </p>
             <ul className="list">
               <li>
-                Built a real-time clinic appointment and token system using MERN
+                Developed a real-time clinic appointment and token system using MERN
                 Stack and Firebase.
               </li>
               <li>
@@ -171,7 +199,7 @@ const Resume = () => {
             </p>
             <ul className="list">
               <li>
-                Created a responsive personal portfolio with React.js to
+                Designed a responsive personal portfolio with React.js to
                 showcase skills and projects.
               </li>
               <li>
@@ -216,6 +244,9 @@ const Resume = () => {
           </ul>
         </section>
       </div>
+      <button className="download-btn" onClick={handleDownload}>
+        Download PDF
+      </button>
     </>
   );
 };
