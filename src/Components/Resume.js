@@ -142,10 +142,10 @@ const Resume = () => {
           </p>
           <p>
             <strong>Tools / Platforms:</strong> Git, GitHub, VS Code, Canva,
-            BootStrap, Vercel
+            BootStrap, Vercel, Render
           </p>
           <p>
-            <strong>Databases:</strong> SQL, MongoDB
+            <strong>Databases:</strong> MongoDB, SQL(basic)
           </p>
         </section>
 
