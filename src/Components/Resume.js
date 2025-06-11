@@ -90,7 +90,7 @@ const Resume = () => {
 
         {/* Experience */}
         <section className="section">
-          <h2 className="section-title">Experience - (Internships)</h2>
+          <h2 className="section-title">Experience - (Virtual Internships)</h2>
 
           <div className="experience-entry">
             <p className="experience-role">
@@ -155,7 +155,15 @@ const Resume = () => {
 
           <div className="project-entry">
             <p className="project-title">
-              Clinic-Q<span className="project-tech">MERN Stack, Firebase</span>
+                <a
+                href="https://drive.google.com/file/d/1b7C7lfwxPudmUNpoY6fE144ZK9OjRdFY/view?usp=drive_link"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               ClinicQ | Link{" "}
+              </a>
+             <span className="project-tech">MERN Stack, Firebase</span>
             </p>
             <ul className="list">
               <li>
@@ -171,7 +179,15 @@ const Resume = () => {
 
           <div className="project-entry">
             <p className="project-title">
-              Diary + Todo App<span className="project-tech">MERN Stack</span>
+                <a
+                href="https://drive.google.com/file/d/1-XbPp9KKUcNNdQxNbbjiX_m94gT7M1tY/view?usp=drive_link"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Diary + Todo App | Link{" "}
+              </a>
+              <span className="project-tech">MERN Stack</span>
             </p>
             <ul className="list">
               <li>
