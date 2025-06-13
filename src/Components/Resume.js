@@ -95,7 +95,7 @@ const Resume = () => {
           <div className="experience-entry">
             <p className="experience-role">
               Harmaig | Frontend Developer
-              <span className="float-right">Mumbai, MH | Oct 3 – Nov 3</span>
+              <span className="float-right">Mumbai, MH | Oct 2024 – Dec 2024</span>
             </p>
             <ul className="list">
               <li>
