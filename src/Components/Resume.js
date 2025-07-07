@@ -65,15 +65,15 @@ const Resume = () => {
         </div>
 
         {/* Career Objective */}
-        <section className="career-objective">
-          <h2 className="section-title">Career Objective</h2>
-          <p className="para">
-            Aspiring Full Stack Web Developer skilled in MERN
-            stack, eager to create impactful digital solutions. Passionate about
-            learning and delivering high-quality user experiences in
-            collaborative teams.
-          </p>
-        </section>
+        // <section className="career-objective">
+        //   <h2 className="section-title">Career Objective</h2>
+        //   <p className="para">
+        //     Aspiring Full Stack Web Developer skilled in MERN
+        //     stack, eager to create impactful digital solutions. Passionate about
+        //     learning and delivering high-quality user experiences in
+        //     collaborative teams.
+        //   </p>
+        // </section>
 
         {/* Education */}
         <section className="section">
