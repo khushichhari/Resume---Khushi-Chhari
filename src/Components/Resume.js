@@ -35,7 +35,7 @@ const Resume = () => {
       <div className="resume-container" ref={resumeRef}>
         <div className="personal-detail">
           <h1 className="resume-title">Khushi Chhari</h1>
-          <p className="resume-subtitle">Full Stack Web Developer</p>
+          <p className="resume-subtitle">Full Stack Developer</p>
           <p className="resume-contact">chharikhushi8@gmail.com | 7558649228</p>
           <p className="resume-links">
             <a
@@ -138,8 +138,31 @@ const Resume = () => {
 
         {/* Projects */}
         <section className="section">
-          <h2 className="section-title">Projects / Open-Source</h2>
+          <h2 className="section-title">Projects</h2>
 
+          
+          <div className="project-entry">
+            <p className="project-title">
+                <a
+                
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Career Management Platform | Ongoing
+              </a>
+              <span className="project-tech">MERN Stack</span>
+            </p>
+            <ul className="list">
+              <li>
+                Developing a unified platform to connect students, universities, and companies for internships and placements.
+              </li>
+              <li>
+                Features include job listings, application tracking, interview scheduling, and real-time messaging & interview.
+              </li>
+            </ul>
+          </div>
+                  
           <div className="project-entry">
             <p className="project-title">
                 <a
