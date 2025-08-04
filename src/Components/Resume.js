@@ -173,7 +173,7 @@ const Resume = () => {
               >
                ClinicQ | Link{" "}
               </a>
-             <span className="project-tech">MERN Stack, Firebase</span>
+             <span className="project-tech">MERN Stack</span>
             </p>
             <ul className="list">
               <li>
@@ -261,9 +261,9 @@ const Resume = () => {
           <ul className="list">
             <li>
               Organizer, GHRHack 1.0 National-level Hackathon at GHRCEM,
-              Jalgaon.
+              Jalgaon in 2024.
             </li>
-            <li>NEC Basic Track Secured Top 50 position nationwide.</li>
+            <li>NEC Basic Track Secured Top 50 position nationwide in 2023.</li>
             <li>
               Cyber-security National Level Hackathon Finalist in Kavach 2023.
             </li>
