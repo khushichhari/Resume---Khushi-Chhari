@@ -13,7 +13,7 @@ body {
   width: 8.27in; /* A4 width */
   height: 11.69in; /* A4 height */
   margin: 0 auto 1rem auto; /* added 1rem bottom margin */
-  padding: 0.25in 0.6in
+  padding: 0.25in 0.6in;
   box-sizing: border-box;
   border: 1px solid #000;
   box-shadow: 
