@@ -490,10 +490,6 @@ const Resume = () => {
         <section className="section">
           <h2 className="section-title">Honors & Awards</h2>
           <ul className="list">
-            <li>
-              Organizer, GHRHack 1.0 National-level Hackathon at GHRCEM,
-              Jalgaon in 2024.
-            </li>
             <li>NEC Basic Track Secured Top 50 position nationwide in 2023.</li>
             <li>
               Cyber-security National Level Hackathon Finalist in Kavach 2023.
