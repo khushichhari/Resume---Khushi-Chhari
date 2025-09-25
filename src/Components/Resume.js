@@ -339,7 +339,6 @@ const Resume = () => {
             >
               Portfolio
             </a>
-            |{" "}
           </p>
         </div>
         <section className="section">
@@ -463,30 +462,6 @@ const Resume = () => {
               <li>
                 Allows users to write mood-tagged diary entries and manage to-do
                 lists in an intuitive interface.
-              </li>
-            </ul>
-          </div>
-
-          <div className="project-entry">
-            <p className="project-title">
-              <a
-                href="https://the-khushi-chhari.vercel.app/"
-                className="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The-Khushi-Chhari | Link{" "}
-              </a>
-              <span className="project-tech">React.js</span>
-            </p>
-            <ul className="list">
-              <li>
-                Designed a responsive personal portfolio with React.js to
-                showcase skills and projects.
-              </li>
-              <li>
-                Integrated smooth animations and clean UI for better user
-                experience.
               </li>
             </ul>
           </div>
