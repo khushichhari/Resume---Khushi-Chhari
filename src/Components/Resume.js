@@ -333,20 +333,13 @@ const Resume = () => {
             </a>
             |{" "}
             <a
-              href="https://github.com/khushichhari"
+              href="https://the-khushi-chhari.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              Portfolio
             </a>
             |{" "}
-            <a
-              href="https://www.hackerrank.com/profile/chharikhushi8"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              HackerRank
-            </a>
           </p>
         </div>
         <section className="section">
@@ -363,24 +356,23 @@ const Resume = () => {
 
         {/* Experience */}
         <section className="section">
-          <h2 className="section-title">Experience - (Virtual Internships)</h2>
-
-          <div className="experience-entry">
+          <h2 className="section-title">Experience</h2>
+            <div className="experience-entry">
             <p className="experience-role">
-              Harmaig | Frontend Developer
-              <span className="float-right">Mumbai, MH | Oct 2024 – Dec 2024</span>
+              GHRhack 1.0 | Event Coordinator 
+              <span className="float-right">Jalgaon, MH | Oct 2024 – March 2025</span>
             </p>
             <ul className="list">
               <li>
-                Delivered responsive website & referral system in collaboration with design and backend teams.
+                Coordinated logistics,technical, scheduling, and communication for 100+ participants.
               </li>
               <li>
-                Improved user experience and ensured on-time project delivery.
+                Led a team of volunteers ensuring seamless execution.
               </li>
             </ul>
           </div>
-
-          <div className="experience-entry">
+                  
+           <div className="experience-entry">
             <p className="experience-role">
               Web-Ad Solutions | Project Coordinator - Web Development
               <span className="float-right">
@@ -396,18 +388,18 @@ const Resume = () => {
               </li>
             </ul>
           </div>
-
-            <div className="experience-entry">
+                    
+          <div className="experience-entry">
             <p className="experience-role">
-              GHRhack 1.0 | Event Coordinator 
-              <span className="float-right">Jalgaon, MH | Oct 2024 – March 2025</span>
+              Harmaig | Frontend Developer
+              <span className="float-right">Mumbai, MH | Oct 2024 – Dec 2024</span>
             </p>
             <ul className="list">
               <li>
-                Coordinated logistics,technical, scheduling, and communication for 100+ participants.
+                Delivered responsive website & referral system in collaboration with design and backend teams.
               </li>
               <li>
-                Led a team of volunteers ensuring seamless execution.
+                Improved user experience and ensured on-time project delivery.
               </li>
             </ul>
           </div>
@@ -417,7 +409,7 @@ const Resume = () => {
         <section className="section skills">
           <h2 className="section-title">Skills</h2>
           <p>
-            <strong>Project & Event Management::</strong> Team Leadership, Task Delegation, Logistics, Coordination.
+            <strong>Project & Event Management:</strong> Team Leadership, Task Delegation, Communication, Coordination.
           </p>
           <p>
             <strong>Tools:</strong> Trello, Canva, Jira, Excel, MS Word.
@@ -430,12 +422,9 @@ const Resume = () => {
         {/* Projects */}
         <section className="section">
           <h2 className="section-title">Projects</h2>
-
-          
           <div className="project-entry">
             <p className="project-title">
                 <a
-                
                 className="project-link"
                 target="_blank"
                 rel="noopener noreferrer"
