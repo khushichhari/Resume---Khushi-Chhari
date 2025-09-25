@@ -321,7 +321,7 @@ const Resume = () => {
       <div className="resume-container" ref={resumeRef}>
         <div className="personal-detail">
           <h1 className="resume-title">Khushi Chhari</h1>
-          <p className="resume-subtitle">Full Stack Developer</p>
+          <p className="resume-subtitle">Event & Project Coordinator</p>
           <p className="resume-contact">khushichhari22@gmail.com | 7558649228</p>
           <p className="resume-links">
             <a
